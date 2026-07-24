@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@smartdine/types": [
+        "../types/src/index.ts"
+      ],
+      "@smartdine/core": [
+        "../core/src/index.ts"
+      ]
+    },
+    "composite": false,
+    "noEmit": true
+  },
+  "include": [
+    "src"
+  ]
+}
