@@ -1,5 +1,5 @@
 {
-  "name": "@deepak747/smartdine-orders",
+  "name": "@fixl1234/restaurent-orders",
   "version": "0.1.0",
   "description": "Orders module for SmartDine SDK",
   "main": "./dist/index.js",
@@ -22,8 +22,8 @@
     "clean": "rimraf dist"
   },
   "dependencies": {
-    "@deepak747/smartdine-core": "workspace:*",
-    "@deepak747/smartdine-types": "workspace:*"
+    "@fixl1234/restaurent-core": "workspace:*",
+    "@fixl1234/restaurent-types": "workspace:*"
   },
   "devDependencies": {
     "tsup": "^8.0.0",

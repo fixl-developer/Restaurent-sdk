@@ -1,4 +1,4 @@
-import type { SmartDineConfig } from '@deepak747/smartdine-types';
+import type { SmartDineConfig } from '@fixl1234/restaurent-types';
 import { HttpClient } from './http';
 import { RealtimeClient } from './realtime';
 

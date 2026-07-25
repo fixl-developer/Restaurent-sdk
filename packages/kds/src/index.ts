@@ -1,5 +1,5 @@
-import type { HttpClient, RealtimeClient } from '@deepak747/smartdine-core';
-import type { KdsOrder, KdsOrderItem, OrderItemStatus } from '@deepak747/smartdine-types';
+import type { HttpClient, RealtimeClient } from '@fixl1234/restaurent-core';
+import type { KdsOrder, KdsOrderItem, OrderItemStatus } from '@fixl1234/restaurent-types';
 
 export interface KdsSubscribeOptions {
   onNewOrder?: (order: KdsOrder) => void;

@@ -1,5 +1,5 @@
 import { io, Socket } from 'socket.io-client';
-import type { SmartDineConfig } from '@deepak747/smartdine-types';
+import type { SmartDineConfig } from '@fixl1234/restaurent-types';
 
 export type RealtimeEvent = Record<string, (...args: unknown[]) => void>;
 

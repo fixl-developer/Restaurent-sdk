@@ -2,7 +2,7 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "paths": {
-      "@deepak747/smartdine-types": [
+      "@fixl1234/restaurent-types": [
         "../types/src/index.ts"
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "name": "@deepak747/smartdine-types",
+  "name": "@fixl1234/restaurent-types",
   "version": "0.1.0",
   "description": "Shared TypeScript types for SmartDine SDK",
   "main": "./dist/index.js",

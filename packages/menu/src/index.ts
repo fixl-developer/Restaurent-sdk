@@ -1,5 +1,5 @@
-import type { HttpClient } from '@deepak747/smartdine-core';
-import type { MenuResponse, MenuItem, MenuCategory } from '@deepak747/smartdine-types';
+import type { HttpClient } from '@fixl1234/restaurent-core';
+import type { MenuResponse, MenuItem, MenuCategory } from '@fixl1234/restaurent-types';
 
 export interface GetMenuOptions {
   /** Restaurant slug (for self-hosted: identifies the outlet) */

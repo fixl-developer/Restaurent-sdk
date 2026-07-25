@@ -1,5 +1,5 @@
 {
-  "name": "@deepak747/smartdine-core",
+  "name": "@fixl1234/restaurent-core",
   "version": "0.1.0",
   "description": "Core HTTP client and WebSocket for SmartDine SDK",
   "main": "./dist/index.js",
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "socket.io-client": "^4.7.0",
-    "@deepak747/smartdine-types": "workspace:*"
+    "@fixl1234/restaurent-types": "workspace:*"
   },
   "devDependencies": {
     "tsup": "^8.0.0",
