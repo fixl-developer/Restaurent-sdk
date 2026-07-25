@@ -2,10 +2,10 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "paths": {
-      "@smartdine/types": [
+      "@deepak747/smartdine-types": [
         "../types/src/index.ts"
       ],
-      "@smartdine/core": [
+      "@deepak747/smartdine-core": [
         "../core/src/index.ts"
       ]
     },

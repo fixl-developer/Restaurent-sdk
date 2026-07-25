@@ -14,7 +14,7 @@ importers:
 
   packages/core:
     dependencies:
-      '@smartdine/types':
+      '@deepak747/smartdine-types':
         specifier: workspace:*
         version: link:../types
       socket.io-client:
@@ -33,10 +33,10 @@ importers:
 
   packages/kds:
     dependencies:
-      '@smartdine/core':
+      '@deepak747/smartdine-core':
         specifier: workspace:*
         version: link:../core
-      '@smartdine/types':
+      '@deepak747/smartdine-types':
         specifier: workspace:*
         version: link:../types
     devDependencies:
@@ -52,10 +52,10 @@ importers:
 
   packages/menu:
     dependencies:
-      '@smartdine/core':
+      '@deepak747/smartdine-core':
         specifier: workspace:*
         version: link:../core
-      '@smartdine/types':
+      '@deepak747/smartdine-types':
         specifier: workspace:*
         version: link:../types
     devDependencies:
@@ -71,10 +71,10 @@ importers:
 
   packages/orders:
     dependencies:
-      '@smartdine/core':
+      '@deepak747/smartdine-core':
         specifier: workspace:*
         version: link:../core
-      '@smartdine/types':
+      '@deepak747/smartdine-types':
         specifier: workspace:*
         version: link:../types
     devDependencies:
@@ -90,10 +90,10 @@ importers:
 
   packages/otp:
     dependencies:
-      '@smartdine/core':
+      '@deepak747/smartdine-core':
         specifier: workspace:*
         version: link:../core
-      '@smartdine/types':
+      '@deepak747/smartdine-types':
         specifier: workspace:*
         version: link:../types
     devDependencies:

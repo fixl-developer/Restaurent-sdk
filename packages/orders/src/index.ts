@@ -1,4 +1,4 @@
-import type { HttpClient, RealtimeClient } from '@smartdine/core';
+import type { HttpClient, RealtimeClient } from '@deepak747/smartdine-core';
 import type {
   Order,
   PlaceDineInInput,
@@ -6,7 +6,7 @@ import type {
   GuestRequestInput,
   OrderStatus,
   OrderItemStatus,
-} from '@smartdine/types';
+} from '@deepak747/smartdine-types';
 
 export interface TrackOptions {
   orderId: string;

@@ -1,5 +1,5 @@
-import type { HttpClient } from '@smartdine/core';
-import type { OtpRequestResult, OtpVerifyResult } from '@smartdine/types';
+import type { HttpClient } from '@deepak747/smartdine-core';
+import type { OtpRequestResult, OtpVerifyResult } from '@deepak747/smartdine-types';
 
 export class OtpClient {
   constructor(private http: HttpClient) {}

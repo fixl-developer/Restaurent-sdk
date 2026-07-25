@@ -1,4 +1,4 @@
-import type { SmartDineConfig } from '@smartdine/types';
+import type { SmartDineConfig } from '@deepak747/smartdine-types';
 import { NotFoundError, SmartDineError, UnauthorizedError, ValidationError } from './errors';
 
 export class HttpClient {

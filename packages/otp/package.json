@@ -1,5 +1,5 @@
 {
-  "name": "@smartdine/otp",
+  "name": "@deepak747/smartdine-otp",
   "version": "0.1.0",
   "description": "Guest OTP module for SmartDine SDK",
   "main": "./dist/index.js",
@@ -22,12 +22,15 @@
     "clean": "rimraf dist"
   },
   "dependencies": {
-    "@smartdine/core": "workspace:*",
-    "@smartdine/types": "workspace:*"
+    "@deepak747/smartdine-core": "workspace:*",
+    "@deepak747/smartdine-types": "workspace:*"
   },
   "devDependencies": {
     "tsup": "^8.0.0",
     "typescript": "^5.4.0",
     "rimraf": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

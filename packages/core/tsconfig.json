@@ -2,7 +2,7 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "paths": {
-      "@smartdine/types": [
+      "@deepak747/smartdine-types": [
         "../types/src/index.ts"
       ]
     },
