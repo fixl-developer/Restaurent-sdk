@@ -1,3 +1,5 @@
+export const VERSION = '0.1.1';
+
 // ── Order enums ───────────────────────────────────────────────────────────────
 export type OrderChannel = 'dine_in' | 'window' | 'delivery';
 

@@ -1,6 +1,6 @@
 {
   "name": "@fixl1234/restaurent-kds",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Kitchen Display System module for SmartDine SDK",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -16,14 +16,14 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "build": "tsup",
+    "dev": "tsup --watch",
     "typecheck": "tsc --noEmit",
     "clean": "rimraf dist"
   },
   "dependencies": {
-    "@fixl1234/restaurent-core": "workspace:*",
-    "@fixl1234/restaurent-types": "workspace:*"
+    "@fixl1234/restaurent-core": "^0.1.0",
+    "@fixl1234/restaurent-types": "^0.1.0"
   },
   "devDependencies": {
     "tsup": "^8.0.0",
