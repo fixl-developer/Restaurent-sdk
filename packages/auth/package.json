@@ -1,0 +1,36 @@
+{
+  "name": "@fixl1234/restaurent-auth",
+  "version": "0.1.0",
+  "description": "Auth module for SmartDine SDK — staff login, guest OTP, token refresh",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@fixl1234/restaurent-core": "^0.1.2",
+    "@fixl1234/restaurent-types": "^0.1.1"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0",
+    "rimraf": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

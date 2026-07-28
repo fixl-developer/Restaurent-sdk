@@ -12,11 +12,49 @@ importers:
         specifier: ^5.4.0
         version: 5.9.3
 
+  packages/analytics:
+    dependencies:
+      '@fixl1234/restaurent-core':
+        specifier: ^0.1.2
+        version: 0.1.2(socket.io-client@4.8.3)
+      '@fixl1234/restaurent-types':
+        specifier: ^0.1.1
+        version: 0.1.1
+    devDependencies:
+      rimraf:
+        specifier: ^5.0.0
+        version: 5.0.10
+      tsup:
+        specifier: ^8.0.0
+        version: 8.5.1(typescript@5.9.3)
+      typescript:
+        specifier: ^5.4.0
+        version: 5.9.3
+
+  packages/auth:
+    dependencies:
+      '@fixl1234/restaurent-core':
+        specifier: ^0.1.2
+        version: 0.1.2(socket.io-client@4.8.3)
+      '@fixl1234/restaurent-types':
+        specifier: ^0.1.1
+        version: 0.1.1
+    devDependencies:
+      rimraf:
+        specifier: ^5.0.0
+        version: 5.0.10
+      tsup:
+        specifier: ^8.0.0
+        version: 8.5.1(typescript@5.9.3)
+      typescript:
+        specifier: ^5.4.0
+        version: 5.9.3
+
   packages/core:
     dependencies:
-      '@deepak747/smartdine-types':
-        specifier: workspace:*
-        version: link:../types
+      '@fixl1234/restaurent-types':
+        specifier: ^0.1.0
+        version: 0.1.1
       socket.io-client:
         specifier: ^4.7.0
         version: 4.8.3
@@ -33,12 +71,12 @@ importers:
 
   packages/kds:
     dependencies:
-      '@deepak747/smartdine-core':
-        specifier: workspace:*
-        version: link:../core
-      '@deepak747/smartdine-types':
-        specifier: workspace:*
-        version: link:../types
+      '@fixl1234/restaurent-core':
+        specifier: ^0.1.0
+        version: 0.1.2(socket.io-client@4.8.3)
+      '@fixl1234/restaurent-types':
+        specifier: ^0.1.0
+        version: 0.1.1
     devDependencies:
       rimraf:
         specifier: ^5.0.0
@@ -52,12 +90,31 @@ importers:
 
   packages/menu:
     dependencies:
-      '@deepak747/smartdine-core':
-        specifier: workspace:*
-        version: link:../core
-      '@deepak747/smartdine-types':
-        specifier: workspace:*
-        version: link:../types
+      '@fixl1234/restaurent-core':
+        specifier: ^0.1.1
+        version: 0.1.2(socket.io-client@4.8.3)
+      '@fixl1234/restaurent-types':
+        specifier: ^0.1.0
+        version: 0.1.1
+    devDependencies:
+      rimraf:
+        specifier: ^5.0.0
+        version: 5.0.10
+      tsup:
+        specifier: ^8.0.0
+        version: 8.5.1(typescript@5.9.3)
+      typescript:
+        specifier: ^5.4.0
+        version: 5.9.3
+
+  packages/notifications:
+    dependencies:
+      '@fixl1234/restaurent-core':
+        specifier: ^0.1.2
+        version: 0.1.2(socket.io-client@4.8.3)
+      '@fixl1234/restaurent-types':
+        specifier: ^0.1.1
+        version: 0.1.1
     devDependencies:
       rimraf:
         specifier: ^5.0.0
@@ -71,12 +128,12 @@ importers:
 
   packages/orders:
     dependencies:
-      '@deepak747/smartdine-core':
-        specifier: workspace:*
-        version: link:../core
-      '@deepak747/smartdine-types':
-        specifier: workspace:*
-        version: link:../types
+      '@fixl1234/restaurent-core':
+        specifier: ^0.1.1
+        version: 0.1.2(socket.io-client@4.8.3)
+      '@fixl1234/restaurent-types':
+        specifier: ^0.1.0
+        version: 0.1.1
     devDependencies:
       rimraf:
         specifier: ^5.0.0
@@ -90,12 +147,31 @@ importers:
 
   packages/otp:
     dependencies:
-      '@deepak747/smartdine-core':
-        specifier: workspace:*
-        version: link:../core
-      '@deepak747/smartdine-types':
-        specifier: workspace:*
-        version: link:../types
+      '@fixl1234/restaurent-core':
+        specifier: ^0.1.0
+        version: 0.1.2(socket.io-client@4.8.3)
+      '@fixl1234/restaurent-types':
+        specifier: ^0.1.0
+        version: 0.1.1
+    devDependencies:
+      rimraf:
+        specifier: ^5.0.0
+        version: 5.0.10
+      tsup:
+        specifier: ^8.0.0
+        version: 8.5.1(typescript@5.9.3)
+      typescript:
+        specifier: ^5.4.0
+        version: 5.9.3
+
+  packages/payments:
+    dependencies:
+      '@fixl1234/restaurent-core':
+        specifier: ^0.1.2
+        version: 0.1.2(socket.io-client@4.8.3)
+      '@fixl1234/restaurent-types':
+        specifier: ^0.1.1
+        version: 0.1.1
     devDependencies:
       rimraf:
         specifier: ^5.0.0
@@ -276,6 +352,14 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@fixl1234/restaurent-core@0.1.2':
+    resolution: {integrity: sha512-8GWk825Z5L+7k8H9z4I7Mb4FoZlqo9CvBf5XJJiicIOBzfrck4mRO8bf8UZGTNKplIp/YDHzJMmKH/rtoRP78g==}
+    peerDependencies:
+      socket.io-client: ^4.7.0
+
+  '@fixl1234/restaurent-types@0.1.1':
+    resolution: {integrity: sha512-Hs3HrhH9ptR32qQRZbezhVRWYRa22NcmWi6IC61X96KnQa0Qc71CSEeyzee3fybBb82YYc77bvNUSu8ID1mkYw==}
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -867,6 +951,13 @@ snapshots:
 
   '@esbuild/win32-x64@0.27.7':
     optional: true
+
+  '@fixl1234/restaurent-core@0.1.2(socket.io-client@4.8.3)':
+    dependencies:
+      '@fixl1234/restaurent-types': 0.1.1
+      socket.io-client: 4.8.3
+
+  '@fixl1234/restaurent-types@0.1.1': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
