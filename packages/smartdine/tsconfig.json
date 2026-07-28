@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@fixl1234/restaurent-types": ["../types/src/index.ts"],
+      "@fixl1234/restaurent-core": ["../core/src/index.ts"],
+      "@fixl1234/restaurent-menu": ["../menu/src/index.ts"],
+      "@fixl1234/restaurent-orders": ["../orders/src/index.ts"],
+      "@fixl1234/restaurent-otp": ["../otp/src/index.ts"],
+      "@fixl1234/restaurent-kds": ["../kds/src/index.ts"],
+      "@fixl1234/restaurent-auth": ["../auth/src/index.ts"],
+      "@fixl1234/restaurent-payments": ["../payments/src/index.ts"],
+      "@fixl1234/restaurent-analytics": ["../analytics/src/index.ts"],
+      "@fixl1234/restaurent-notifications": ["../notifications/src/index.ts"]
+    },
+    "composite": false,
+    "noEmit": true
+  },
+  "include": ["src"]
+}

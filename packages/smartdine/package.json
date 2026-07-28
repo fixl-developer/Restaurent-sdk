@@ -1,0 +1,48 @@
+{
+  "name": "@fixl1234/smartdine",
+  "version": "0.1.0",
+  "description": "SmartDine SDK — complete restaurant platform toolkit in one package",
+  "keywords": ["smartdine", "restaurant", "sdk", "menu", "orders", "kds", "payments", "analytics", "auth", "typescript"],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@fixl1234/restaurent-core": "^0.1.3",
+    "@fixl1234/restaurent-types": "^0.1.2",
+    "@fixl1234/restaurent-menu": "^0.1.3",
+    "@fixl1234/restaurent-orders": "^0.1.3",
+    "@fixl1234/restaurent-otp": "^0.1.2",
+    "@fixl1234/restaurent-kds": "^0.1.2",
+    "@fixl1234/restaurent-auth": "^0.1.1",
+    "@fixl1234/restaurent-payments": "^0.1.1",
+    "@fixl1234/restaurent-analytics": "^0.1.1",
+    "@fixl1234/restaurent-notifications": "^0.1.1"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0",
+    "rimraf": "^5.0.0"
+  },
+  "peerDependencies": {
+    "socket.io-client": "^4.7.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
