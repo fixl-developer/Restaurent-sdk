@@ -1,7 +1,16 @@
 {
   "name": "@fixl1234/restaurent-otp",
-  "version": "0.1.1",
-  "description": "Guest OTP module for SmartDine SDK",
+  "version": "0.1.2",
+  "description": "Guest OTP module for SmartDine SDK — phone-based one-time password authentication",
+  "keywords": [
+    "smartdine",
+    "restaurant",
+    "sdk",
+    "otp",
+    "auth",
+    "sms",
+    "typescript"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

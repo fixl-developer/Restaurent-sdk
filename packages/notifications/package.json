@@ -1,7 +1,17 @@
 {
   "name": "@fixl1234/restaurent-notifications",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Notifications module for SmartDine SDK — SMS, WhatsApp, push alerts",
+  "keywords": [
+    "smartdine",
+    "restaurant",
+    "sdk",
+    "notifications",
+    "sms",
+    "whatsapp",
+    "push",
+    "typescript"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

@@ -1,7 +1,17 @@
 {
   "name": "@fixl1234/restaurent-auth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Auth module for SmartDine SDK — staff login, guest OTP, token refresh",
+  "keywords": [
+    "smartdine",
+    "restaurant",
+    "sdk",
+    "auth",
+    "login",
+    "otp",
+    "jwt",
+    "typescript"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

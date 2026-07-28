@@ -1,7 +1,16 @@
 {
   "name": "@fixl1234/restaurent-kds",
-  "version": "0.1.1",
-  "description": "Kitchen Display System module for SmartDine SDK",
+  "version": "0.1.2",
+  "description": "Kitchen Display System module for SmartDine SDK — live order queue for kitchen screens",
+  "keywords": [
+    "smartdine",
+    "restaurant",
+    "sdk",
+    "kds",
+    "kitchen",
+    "realtime",
+    "typescript"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

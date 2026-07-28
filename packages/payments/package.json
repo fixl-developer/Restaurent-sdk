@@ -1,7 +1,18 @@
 {
   "name": "@fixl1234/restaurent-payments",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Payments module for SmartDine SDK — invoices, Razorpay, UPI QR, cash sessions",
+  "keywords": [
+    "smartdine",
+    "restaurant",
+    "sdk",
+    "payments",
+    "invoice",
+    "upi",
+    "razorpay",
+    "cash",
+    "typescript"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

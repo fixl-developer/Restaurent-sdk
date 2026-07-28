@@ -1,7 +1,15 @@
 {
   "name": "@fixl1234/restaurent-orders",
-  "version": "0.1.2",
-  "description": "Orders module for SmartDine SDK",
+  "version": "0.1.3",
+  "description": "Orders module for SmartDine SDK — place, track, and manage dine-in and window orders",
+  "keywords": [
+    "smartdine",
+    "restaurant",
+    "sdk",
+    "orders",
+    "realtime",
+    "typescript"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

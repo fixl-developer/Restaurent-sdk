@@ -1,7 +1,17 @@
 {
   "name": "@fixl1234/restaurent-analytics",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Analytics module for SmartDine SDK — KPI dashboard, sales, items, inventory reports",
+  "keywords": [
+    "smartdine",
+    "restaurant",
+    "sdk",
+    "analytics",
+    "reports",
+    "kpi",
+    "dashboard",
+    "typescript"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

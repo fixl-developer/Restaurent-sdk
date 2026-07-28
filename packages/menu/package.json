@@ -1,7 +1,15 @@
 {
   "name": "@fixl1234/restaurent-menu",
-  "version": "0.1.2",
-  "description": "Menu module for SmartDine SDK",
+  "version": "0.1.3",
+  "description": "Menu module for SmartDine SDK — categories, items, variants, combos",
+  "keywords": [
+    "smartdine",
+    "restaurant",
+    "sdk",
+    "menu",
+    "food",
+    "typescript"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
